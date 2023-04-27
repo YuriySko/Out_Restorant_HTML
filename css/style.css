@@ -89,6 +89,23 @@ body {
     line-height: 19px;
     text-transform: uppercase;
 }
+/* Title styles */
+.title {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    /* identical to box height */
+
+    color: #000000;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.title span {
+    color: #d67e34;
+}
 
 /* Header - intro stiles */
 .header-intro {
@@ -192,4 +209,142 @@ body {
     text-align: center;
 
     color: #656363;
+}
+/* history stiles */
+
+.our__history-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 122px;
+}
+.our__history-content {
+    width: 444px;
+    height: 422px;
+    /* display: flex; */
+}
+.our__history-title {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    /* identical to box height */
+
+    color: #000000;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.our__history-title span {
+    color: #d67e34;
+}
+.our__history-text {
+    text-align: center;
+    margin-bottom: 39px;
+}
+.our__history-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.num {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #bc9060;
+}
+.description {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+.our__history-image {
+    width: 539px;
+    height: 498px;
+    position: relative;
+}
+.image-1 {
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.5);
+}
+.image-2 {
+    position: absolute;
+    top: 0;
+    left: 190px;
+}
+.image-3 {
+    position: absolute;
+    top: 198px;
+    left: 285px;
+    box-shadow: -1px 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-4 {
+    position: absolute;
+    top: 35px;
+    left: 285px;
+    z-index: -1;
+}
+/*  */
+.invitation {
+    height: 357px;
+    background: url(./../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-bottom: 132px;
+}
+.invitation-wrapper {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.invitation-content {
+    width: 601px;
+    height: 173px;
+}
+.invitation__title {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #d67e34;
+    margin-bottom: 20px;
+}
+.invitation_text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+}
+.dishes__wrapper {
+    display: flex;
+    gap: 10px;
+}
+.dishes__images {
+}
+.menu__dishes {
+    display: flex;
+    flex-direction: column;
+}
+.menu__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
 }
