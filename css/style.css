@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap");
 body {
+    width: 1440px;
+    margin: 0 auto;
     font-family: "Open Sans", sans-serif;
 }
 
 .header {
-    width: 100%;
-    height: 800px;
+    height: 100vh;
     background: url(./../img/header/HERO-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: center; */
 }
 
 .container {
@@ -148,7 +150,7 @@ body {
 }
 
 .header-differences {
-    transform: translateY(-22%);
+    transform: translateY(-122px);
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
@@ -160,9 +162,10 @@ body {
     min-height: 328px;
     text-align: center;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-    padding: 48px 20px;
+    padding: 48px 15px;
 }
 .card-img {
+    height: 87px;
 }
 .card-title {
     margin-bottom: 20px;
