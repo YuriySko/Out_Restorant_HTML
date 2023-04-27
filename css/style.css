@@ -76,6 +76,7 @@ body {
 
     color: #ffffff;
 }
+/* Button styles */
 .button {
     display: inline-block;
     background: #ff7400;
@@ -89,6 +90,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Header - intro stiles */
 .header-intro {
     position: relative;
 }
@@ -155,9 +157,9 @@ body {
     justify-content: space-evenly;
     gap: 10px;
 }
+/* Diference styles */
 .card-diference {
     background-color: #fff;
-    /* border: 1px solid #222; */
     width: 32%;
     min-height: 328px;
     text-align: center;
