@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    background: url(./../img/header/HERO-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo__img {
+    height: 68px;
+}
+
+.header__menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+.header-menu {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.menu__link {
+    padding: 12px;
+}
+.cart {
+    height: 15px;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.header__phone {
+    margin-left: 20px;
+    margin-right: 45px;
+}
+
+.header__phone span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #ffffff;
+}
+
+.phone-img {
+    height: 23px;
+}
+.header__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+.button {
+    display: inline-block;
+    background: #ff7400;
+    color: #fff;
+    padding: 14px 24px;
+}
+.button-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.header-intro {
+    position: relative;
+}
+.header-intro__wrapper {
+    position: absolute;
+    top: 203px;
+    height: 556px;
+
+    text-align: center;
+}
+.header-intro__subtitle {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+
+    color: #d67e35;
+}
+.header-intro__title {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+
+    color: #d67e35;
+}
+
+.header-intro__suptitle {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #ffffff;
+    margin-bottom: 21px;
+    position: relative;
+}
+.header-intro__suptitle::before {
+    content: "";
+    height: 2px;
+    width: 61px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 78px;
+}
+.header-intro__suptitle::after {
+    content: "";
+    height: 2px;
+    width: 61px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    right: 78px;
+}
+
+.header-differences {
+    transform: translateY(-22%);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.card-diference {
+    background-color: #fff;
+    /* border: 1px solid #222; */
+    width: 32%;
+    min-height: 328px;
+    text-align: center;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    padding: 48px 20px;
+}
+.card-img {
+}
+.card-title {
+    margin-bottom: 20px;
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #2c2c2c;
+}
+.card-title span {
+    color: #bc9060;
+}
+.card-text {
+    font-family: "Tinos";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #656363;
+}
